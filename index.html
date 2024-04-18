@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="A simple Notepad for quick notes">
+</head>
+
+<body>
+    <main>
+        <label for="editor" aria-label="Editor"></label>
+        <textarea name="editor" id="editor" autofocus></textarea>
+        <section>
+            <div id="actions">
+                <button id="reset">Reset</button>
+                <button id="save">Save</button>
+            </div>
+
+            <legend>
+                <output id="characters">0</output> characters, <output id="words">0</output> words
+            </legend>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
